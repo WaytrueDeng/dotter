@@ -1,0 +1,14 @@
+[helpers]
+
+[hyprland]
+depends=["wofi","gbar"]
+[hyprland.files]
+hypr = "~/.config/hypr"
+[wofi.files]
+wofi = "~/.config/wofi"
+[gbar.files]
+gbar = "~/.config/gBar"
+
+
+[neovim.files]
+nvim = { target = "~/.config/nvim", type = "symbolic" }

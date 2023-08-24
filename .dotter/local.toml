@@ -1,0 +1,6 @@
+includes = []
+packages = ["hyprland","neovim"]
+
+[files]
+
+[variables]
