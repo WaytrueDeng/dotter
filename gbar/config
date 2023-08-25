@@ -8,7 +8,7 @@
 # - After the value
 
 # The CPU sensor to use
-CPUThermalZone: /sys/devices/pci0000:00/0000:00:18.3/hwmon/hwmon2/temp1_input
+CPUThermalZone: /sys/devices/virtual/thermal/thermal_zone0/hwmon0/temp1_input 
 
 # The command to execute on suspend
 SuspendCommand: systemctl suspend

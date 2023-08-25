@@ -130,6 +130,8 @@ return packer.startup(function(use)
 		run = ":TSUpdate",
 	})
 	use("neovim/nvim-lspconfig") -- enable LSP
+  use 'mfussenegger/nvim-dap'
+  use 'mfussenegger/nvim-dap-python'
 	use("williamboman/mason.nvim") -- simple to use language server installer
 	use("williamboman/mason-lspconfig.nvim") -- simple to use language server installer
 	use("jose-elias-alvarez/null-ls.nvim") -- LSP diagnostics and code actions
