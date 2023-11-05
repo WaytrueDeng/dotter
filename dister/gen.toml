@@ -1,0 +1,36 @@
+# --------------------- #
+#    Generation File    #
+# --------------------- #
+
+# Packages to be installed via the native package manager.
+pkgs = [
+    "git",
+    "hyprland",
+    "xdg-desktop-portal",
+    "xdg-desktop-portal-hyprland",
+    "thunar",
+    "kitty",
+    "zellij",
+    "zsh",
+    "wofi",
+    "mako",
+    "zoxide",
+    "tlp",
+    "polkit-kde-agent",
+    "light",
+    "fcitx5",
+    "fcitx5-configtool",
+    "fcitx5-rime",
+    "wl-clipboard",
+    "hyprshot",
+]
+
+# Packages to be installed via Flatpak.
+flatpaks = [
+    # "flatseal",
+]
+
+# Packages to be installed via Cargo.
+crates = [
+    # "bacon",
+]

@@ -1,0 +1,21 @@
+# --------------------- #
+#    Generation File    #
+# --------------------- #
+
+# Packages to be installed via the native package manager.
+pkgs = [
+    # "git",
+    "hyprland",
+    "xdg-desktop-portal",
+    "xdg-desktop-portal-hyprland",
+]
+
+# Packages to be installed via Flatpak.
+flatpaks = [
+    # "flatseal",
+]
+
+# Packages to be installed via Cargo.
+crates = [
+    # "bacon",
+]

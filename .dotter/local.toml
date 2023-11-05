@@ -1,5 +1,5 @@
 includes = []
-packages = ["hyprland","neovim","zsh"]
+packages = ["hyprland","neovim","zsh","dister"]
 
 [files]
 

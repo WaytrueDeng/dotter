@@ -1,7 +1,8 @@
 [helpers]
-
+[dister.files]
+dister = "~/.config/dister"
 [hyprland]
-depends=["wofi","gbar","fcitx5","mako","kitty"]
+depends=["wofi","gbar","fcitx5","mako","kitty","zotero"]
 [hyprland.files]
 hypr = "~/.config/hypr"
 [wofi.files]
@@ -13,14 +14,12 @@ mako = "~/.config/mako"
 [fcitx5.files]
 "fcitx5/rime" = { target = "~/.local/share/fcitx5/rime", type = "symbolic" }
 "fcitx5/themes" = { target = "~/.local/share/fcitx5/themes", type = "symbolic" }
-
-
 [zsh.files]
 "zsh/.zshrc" = { target = "~/.zshrc", type = "symbolic" }
 "zsh/.oh-my-zsh" = { target = "~/.oh-my-zsh", type = "symbolic" }
 [neovim.files]
 nvim = { target = "~/.config/nvim", type = "symbolic" }
-
-
 [kitty.files]
 kitty = { target = "~/.config/kitty", type = "symbolic" }
+[zotero.files]
+zotero = { target = "~/.zotero", type = "symbolic"}

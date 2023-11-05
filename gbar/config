@@ -8,7 +8,7 @@
 # - After the value
 
 # The CPU sensor to use
-CPUThermalZone: /sys/devices/virtual/thermal/thermal_zone0/hwmon0/temp1_input 
+CPUThermalZone: /sys/devices/virtual/thermal/thermal_zone0/hwmon1/temp1_input 
 
 # The command to execute on suspend
 SuspendCommand: systemctl suspend
@@ -20,7 +20,7 @@ LockCommand: ~/.config/scripts/sys.sh lock
 ExitCommand: killall Hyprland
 
 # The folder, where the battery sensors reside
-BatteryFolder: /sys/class/power_supply/macsmc-battery
+BatteryFolder: /sys/class/power_supply/BAT0
 # Overrides the icon of the nth (in this case the first) workspace
 # WorkspaceSymbol-1: 
 
@@ -36,7 +36,7 @@ WorkspaceScrollInvert: false
 # Use Hyprland IPC instead of the ext_workspace protocol for workspace polling.
 # Hyprland IPC is *slightly* less performant (+0.1% one core), but way less bug prone,
 # since the protocol is not as feature complete as Hyprland IPC.
-UseHyprlandIPC: false
+UseHyprlandIPC: true
 
 # The location of the bar
 # Needs to be capitalized!!
