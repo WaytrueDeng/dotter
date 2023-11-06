@@ -9,15 +9,16 @@
 // - modify it via the UI (e.g. via about:config in the browser); or
 // - set it within a user.js file in your profile.
 
-user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1699086184);
-user_pref("app.update.lastUpdateTime.background-update-timer", 1699109162);
-user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1699109042);
-user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1699086304);
+user_pref("app.update.lastUpdateTime.addon-background-update-timer", 1699172584);
+user_pref("app.update.lastUpdateTime.background-update-timer", 1699158178);
+user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1699158058);
+user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1699172704);
 user_pref("browser.laterrun.bookkeeping.profileCreationTime", 1694445044);
 user_pref("browser.laterrun.bookkeeping.sessionCount", 51);
 user_pref("browser.rights.3.shown", true);
 user_pref("browser.startup.homepage_override.buildID", "20230912014407");
 user_pref("browser.startup.homepage_override.mstone", "102.15.1");
+user_pref("cite", true);
 user_pref("distribution.iniFile.exists.appversion", "102.13.0");
 user_pref("distribution.iniFile.exists.value", false);
 user_pref("extensions.blocklist.pingCountVersion", -1);
@@ -81,14 +82,14 @@ user_pref("extensions.zotero.firstRun2", false);
 user_pref("extensions.zotero.firstRunGuidanceShown.quickFormat", true);
 user_pref("extensions.zotero.greenfrog.secretkey", "d174b7dfa26e4269a7fa64a65c50f54e");
 user_pref("extensions.zotero.ignoreLegacyDataDir.auto", true);
-user_pref("extensions.zotero.lastSelectedPrefPane", "plugin-pane-rEPcYIDT-zoterostyle@polygon.org");
-user_pref("extensions.zotero.lastViewedFolder", "L1");
+user_pref("extensions.zotero.lastSelectedPrefPane", "zotero-prefpane-cite");
+user_pref("extensions.zotero.lastViewedFolder", "C16");
 user_pref("extensions.zotero.lastWebDAVOrphanPurge", 1698578067);
 user_pref("extensions.zotero.newItemTypeMRU", "journalArticle,book");
 user_pref("extensions.zotero.pane.persist", "{\"zotero-reader-sidebar-pane\":{\"collapsed\":\"true\",\"width\":\"556\"},\"zotero-collections-pane\":{},\"zotero-tags-splitter\":{},\"zotero-tag-selector-container\":{},\"zotero-collections-splitter\":{},\"zotero-layout-switcher\":{\"orient\":\"horizontal\"},\"zotero-items-pane\":{\"width\":\"1320\"},\"zotero-items-splitter\":{\"orient\":\"horizontal\"},\"zotero-item-pane\":{\"width\":\"338\",\"height\":\"300\"},\"zotero-context-splitter\":{\"state\":\"open\"},\"zotero-context-pane\":{\"width\":\"505\"},\"zotero-context-splitter-stacked\":{\"state\":\"open\"},\"zotero-context-pane-inner\":{}}");
 user_pref("extensions.zotero.prefVersion", 9);
 user_pref("extensions.zotero.purge.tags", true);
-user_pref("extensions.zotero.recentSaveTargets", "[{\"id\":\"C3\",\"sessionID\":\"e0x1DJeN\"},{\"id\":\"C15\",\"sessionID\":\"ZGMjlsEk\"},{\"id\":\"C19\",\"sessionID\":\"JmF72YIJ\"},{\"id\":\"C21\",\"sessionID\":\"yRlXQ1jG\"},{\"id\":\"C23\",\"sessionID\":\"QgqVpIZS\"},{\"id\":\"C23\",\"sessionID\":\"dC98Y011\"},{\"id\":\"C23\",\"sessionID\":\"Az5vO10f\"}]");
+user_pref("extensions.zotero.recentSaveTargets", "[{\"id\":\"C15\",\"sessionID\":\"ZGMjlsEk\"},{\"id\":\"C19\",\"sessionID\":\"JmF72YIJ\"},{\"id\":\"C21\",\"sessionID\":\"yRlXQ1jG\"},{\"id\":\"C23\",\"sessionID\":\"QgqVpIZS\"},{\"id\":\"C23\",\"sessionID\":\"dC98Y011\"},{\"id\":\"C23\",\"sessionID\":\"Az5vO10f\"},{\"id\":\"C16\",\"sessionID\":\"0RNhtCyy\"}]");
 user_pref("extensions.zotero.retractedLibraries", "{}");
 user_pref("extensions.zotero.sourceList.persist", "{\"L1\":true,\"P1\":false}");
 user_pref("extensions.zotero.sync.server.username", "waytrue@outlook.com");
@@ -153,4 +154,4 @@ user_pref("security.sandbox.content.tempDirSuffix", "d0535c4a-84c0-4993-9a83-ae1
 user_pref("storage.vacuum.last.index", 1);
 user_pref("storage.vacuum.last.places.sqlite", 1697118846);
 user_pref("toolkit.startup.last_success", 1696468859);
-user_pref("toolkit.startup.recent_crashes", 5);
+user_pref("toolkit.startup.recent_crashes", 2);
